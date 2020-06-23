@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.tableView.contentInset = UIEdgeInsetsMake(20.0f, 0.0f, 20.0f, 0.0f);
+    self.tableView.contentInset = UIEdgeInsetsMake(20.0f, 10.0f, 10.0f, 10.0f);
     [self.tableView registerClass:[HSBubbleCell class] forCellReuseIdentifier:@"YouCell"];
     [self.tableView registerClass:[HSBubbleCell class] forCellReuseIdentifier:@"AVFCell"];
     self.speechStrings = [NSMutableArray arrayWithObjects:@"1", @"2", @"3", nil];
